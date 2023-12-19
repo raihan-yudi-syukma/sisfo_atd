@@ -1,3 +1,5 @@
+// File .JSON (Javascript Object Notation) berisi keterangan 
+// project dan library yang dipakai. Dibutuhkan composer.
 {
 	"description": "The CodeIgniter framework",
 	"name": "codeigniter/framework",
