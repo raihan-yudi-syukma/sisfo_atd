@@ -1,5 +1,7 @@
 <?php
 /**
+ * File yang pertama kali dijalankan (karena satu-satunya file .php di folder root)
+ *
  * CodeIgniter
  *
  * An open source application development framework for PHP
