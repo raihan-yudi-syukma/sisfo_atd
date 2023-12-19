@@ -1,0 +1,227 @@
+/* All elements style */
+body {
+    background-size: cover;
+}
+
+.container-fluid {
+    width: auto;
+}
+
+/* form style */
+.input {
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    width: 330px;
+}
+
+.input:focus {
+    outline-color: dodgerblue;
+}
+
+.input-invalid {
+    border: 2px solid red;
+    border-radius: 20px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    padding: 5px;
+    width: 330px;
+}
+
+.input-invalid::placeholder {
+    color: tomato;
+}
+
+.text-tomato {
+    color: tomato;
+}
+
+.btn-submit {
+    background-color: skyblue;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 150px;
+}
+
+.btn-reset {
+    background-color: khaki;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 150px;
+}
+
+
+/* show article */
+.article {
+  padding: 0 2em;
+  padding-top: 20px;
+}
+
+.article .post-title {
+  font-family: sans;
+  font-weight: bolder;
+}
+
+.article .post-meta {
+  color: grey;
+  font-family: sans;
+  font-size: 20px;
+  margin: 1em 0;
+}
+
+.article .post-body {
+  line-height: 1.6rem;
+  font-size: 23px;
+}
+
+
+/* Mahasiswa input styles */
+.img-input-mhs {
+	width: 150px;
+}
+
+.header-input-mhs {
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.td-label-mhs {
+    align-items: flex-start;
+	display: flex;
+}
+
+.label-mhs {
+    color: yellow;
+    font-size: 20px;
+	font-weight: bold;
+}
+
+.radio-mhs {
+	color: white;
+}
+
+
+/* Mahasiswa Table Styles */
+.tb-header-mhs {
+	background-color: crimson;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.tb-footer-mhs {
+    background-color: crimson;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.tb-title-mhs {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+	padding-top: 5px;
+}
+
+.th-mhs {
+    background-color: springgreen;
+    font-family: sans-serif;
+	font-size: 21px;
+    padding: 5px;
+	text-align: center;
+}
+
+.tr-mhs {
+    font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.td-mhs {
+	padding: 8px;
+	font-size: 20px;
+}
+
+.td-aksi-mhs {
+    background-color: skyblue;
+	padding: 5px;
+    text-align: center;
+}
+
+
+/* Mahasiswa Buttons Style */
+.btn-ubah-mhs {
+    background-color: paleturquoise;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    width: 108px;
+}
+
+.img-ubah-mhs {
+	margin-bottom: 5px; 
+    margin-left: 5px;
+}
+
+.btn-hapus {
+    background-color: tomato;
+    border-radius: 25px;
+	font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 10px;
+    width: 108px;
+}
+
+.img-hapus-mhs {
+	margin-bottom: 5px; 
+    margin-left: 5px;"
+}
+
+.btn-truncate-mhs {
+    background-color: lightsalmon;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 250px;
+}
+
+
+/* Pagination styles */
+.pagination {
+    padding-top: 5px;
+}
+
+.pagination a,
+.pagination strong {
+    border: 1px solid silver;
+    border-radius: 8px;
+    color: white;
+    margin-right: 0.5em;
+    padding: 0.5em;
+}
+
+.pagination a:hover,
+.pagination strong {
+    background-color: #008cba;
+    border: 1px solid #008cba;
+    color: white;  
+}
