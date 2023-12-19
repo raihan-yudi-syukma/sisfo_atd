@@ -1,5 +1,7 @@
+# file ini berisikan daftar file dan folder yang akan diabaikan (tidak disimpan perubahan / version nya)
 .DS_Store
 
+# file dan folder pada project CodeIgniter (*: semua objek pada direktori ini)
 application/cache/*
 !application/cache/index.html
 
@@ -22,7 +24,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /nbproject/
 .idea/*
 
-## Sublime Text cache files -> Sublime text?
+## Sublime Text cache files
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
