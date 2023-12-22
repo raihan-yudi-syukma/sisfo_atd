@@ -113,7 +113,7 @@ class Setting extends CI_Controller
 			// data yang disubmit user
 			$password = [
 				'id' => $data['current_user']->id,
-				'password' => password_hash($this->input->post('pasword', true), PASSWORD_DEFAULT),
+				'password' => password_hash($this->input->post('password', true), PASSWORD_DEFAULT),
 				'password_updated_at' => date("Y-m-d H:i:s")
     			];
 
