@@ -90,7 +90,7 @@ class Mahasiswa extends CI_Controller
 				'program_studi' => $this->input->post('program_studi', true)
 			];
 
-			if ($this->mahasiswa_model->insert($mahasiswa);) { 
+			if ($this->mahasiswa_model->insert($mahasiswa)) { 
 				$this->session->set_flashdata('mahasiswa_saved', 'Data disimpan!');
 			} else {
 				redirect('errors/something_wrong');
