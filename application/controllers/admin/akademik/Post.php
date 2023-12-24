@@ -44,7 +44,7 @@ class Post extends CI_Controller
 				'draft' => $this->input->post('draft', true)
 			];
 
-			if ($this->article_model->insert($article);) {
+			if ($this->article_model->insert($article)) {
 				$this->session->set_flashdata('post_saved', 'Artikel disimpan!');
 				return redirect('admin/akademik/post');
 			} else {
@@ -101,7 +101,7 @@ class Post extends CI_Controller
 
 	public function truncate()
 	{
-		if ($this->article_model->truncate();) {
+		if ($this->article_model->truncate()) {
 			$this->session->set_flashdata('post_truncated', 'Semua artikel dihapus!');
 			redirect('admin/akademik/post');
 		} else {
