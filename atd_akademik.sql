@@ -41,6 +41,7 @@ CREATE TABLE `admin` (
 
 LOCK TABLES `admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
+/* password: admin */;
 INSERT INTO `admin` VALUES ('6118b2a943acc2.78631959','Administrator','admin@mail.com','admin','$2y$10$hRi1qju2KOeEPcBZ0wYfhu/PN5e9Wl.ddWeDTds8Uokad764X9D1a',NULL,'2021-08-14 23:22:33','2021-08-19 08:55:42');
 /*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;
